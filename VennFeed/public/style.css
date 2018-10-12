@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,700');
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  background-color: #DDDDDD;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+ul {
+  list-style-type: none;
+}
+
+header {
+  background-color: #FFFFFF;
+  background: linear-gradient(90deg, rgba(244,0,255,0.19371498599439774) 0%, rgba(0,212,255,0.3841911764705882) 100%);
+  display: grid;
+  grid-template-columns: 30% auto;
+}
+header a {
+  color: black;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+
+#logo {
+  font-weight: bold;
+  font-size: 1.5em;
+  padding: 1.1em 0 0 2em;
+  margin: 0;
+}
+
+nav {
+  justify-self: right;
+}
+nav ul li {
+  display: inline;
+}
+nav ul li a {
+  padding: 2em;
+  display: inline-block;
+}
+nav ul li a:hover {
+  background: #44DD44;
+}
+.container {
+  width: calc(100% - 4em);
+  padding: 2em;
+  margin-top: 2em;
+}
+h1 {
+  margin-bottom: 1em;
+}
+.person-container {
+  background: #D6D6E6;
+  border-radius: 7px;
+  padding: 1em;
+  margin-bottom: 10px;
+  display: grid;
+  grid-template-columns: 120px auto;
+  column-gap: 1rem;
+}
+.blank { <!-- somehow need pictures here ideally-->
+  width: 100px;
+  height: 110px;
+  border: 3px solid #888888;
+  border-radius: 50%;
+}
