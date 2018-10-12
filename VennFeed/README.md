@@ -1,31 +1,4 @@
-# Adonis fullstack application
+This is the Dell Hackathon 2018 Project by Evan Powers, Perren Wright, Cassie Coyle, Margaret Chang
 
-This is the fullstack boilerplate for AdonisJs, it comes pre-configured with.
-
-1. Bodyparser
-2. Session
-3. Authentication
-4. Web security middleware
-5. CORS
-6. Edge template engine
-7. Lucid ORM
-8. Migrations and seeds
-
-## Setup
-
-Use the adonis command to install the blueprint
-
-```bash
-adonis new yardstick
-```
-
-or manually clone the repo and then run `npm install`.
-
-
-### Migrations
-
-Run the following command to run startup migrations.
-
-```js
-adonis migration:run
-```
+This is a brief powerpoint discussing some conceptual info for the app.
+https://docs.google.com/presentation/d/1hxepL5jormiJrtytdHU3eUYqj6zNCSD2T7d-lgHg4gI/edit#slide=id.g4460ebbb93_0_5
